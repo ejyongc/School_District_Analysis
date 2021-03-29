@@ -31,7 +31,7 @@ The *School District Analysis* was created to provide the school board detailed 
   
 
   #### 2.3 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-  After removing the data compromised data, 'Thomas High School' overall percentage decreased -0.32% but we can still that it didn't affect its possion on the top five schools on the district.
+  After removing the data compromised data, 'Thomas High School' overall percentage decreased -0.32% but we can see that it didn't affect its position on the top five schools on the district.
   ##### Top Five Schools
 ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Top%205%20Schools.png)
 
