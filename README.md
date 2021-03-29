@@ -50,7 +50,7 @@ The *School District Analysis* was created to provide the school board detailed 
 
   #### 2.4 How does replacing the ninth-grade scores affect the following:
   ##### a. Math and reading scores by grade
-  We can see that after the data for 9th graders was removed, there's no significant impact on the rest of schools
+  We can see that after the data for 9th graders was removed (NaN Cells), there's no significant impact on the rest of schools. 
   ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Math%20and%20Reading%20Scores%20by%20Grades.png)
   ##### b. Scores by school spending
   There's no significant change on the data for *Scores by School Spending*.
@@ -64,3 +64,9 @@ The *School District Analysis* was created to provide the school board detailed 
     
 
     3. Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs
+
+## 3. Summary
+In conclusion, post the changes we applied to the data, we can see some changes that altered some of the dataframes.  
+In the *District Summary* dataframe we can immediately see the number of students decrease by 461 which accounts for the 9th grade students from *Thomas High School* we removed at the beguining of the analysis. 
+We can also see a slight decrease on the passing percentages. Although we are seeing a change on this dataframe we believe is not significant enough to skew the data. 
+The '*School Summary'* dataframe is where we are going to see the most significant change in terms of percentages. We are seeing a decrease of -0.32% on the percentage of passing studentsIn, and this could be considered high in relation to the other changes mentioned above.  
