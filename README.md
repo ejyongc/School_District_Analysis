@@ -29,13 +29,13 @@ The *School District Analysis* was created to provide the school board detailed 
 
 ## 2. Results
   #### 2.1 How is the *District Summary* affected? 
-  After removing the implicated data, we noticed a small decrease on the following metrics: *Average Math Score (-0.1%), % Passing Math (-0.2%), % Passing Reading (-0.1%), and % Overall Passing (-0.3%).*
+  After removing the implicated data, we noticed a small decrease on the following metrics: *'Average Math Score' (-0.1%), '% Passing Math' (-0.2%), '% Passing Reading' (-0.1%), and '% Overall Passing' (-0.3%).*
 ##### Old District Summary 
 ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Old%20District%20Analysis.png)
 ##### New District Summary
 ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/New%20District%20Analysis.png)
 
   #### 2.2 How is the school summary affected?
-  
+  We can see that the *Percentage Passing Math (-0.08%), Percentage Passing Reading (-0.29%), and Percentage 
 
     3. Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
