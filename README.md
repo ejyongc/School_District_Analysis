@@ -49,9 +49,18 @@ The *School District Analysis* was created to provide the school board detailed 
 ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Top%205%20Schools.png)
 
   #### 2.4 How does replacing the ninth-grade scores affect the following:
-  ##### Math and reading scores by grade
-  ##### Scores by school spending
-  ##### Scores by school size
-  ##### Scores by school type
-  
-    3. Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+  ##### a. Math and reading scores by grade
+  We can see that after the data for 9th graders was removed, there's no significant impact on the rest of schools
+  ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Math%20and%20Reading%20Scores%20by%20Grades.png)
+  ##### b. Scores by school spending
+  There's no significant change on the data for *Scores by School Spending*.
+  ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Spending%20Summary.png)
+  ##### c. Scores by school size
+  Similarly to *Scores by School Size*, replacing the *ninth-grade scores* didn't impact the *Scores by School Size* dataframe. 
+  ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Size%20Summary.png)
+  ##### d. Scores by school type
+  Finally, we are not seeing any changes on *Scores by School Type*
+  ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Type%20Summary.png)
+    
+
+    3. Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs
