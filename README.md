@@ -1,8 +1,5 @@
 # School_District_Analysis
 
-The analysis should contain the following:
-    1. Overview of the school district analysis: Explain the purpose of this analysis.
-
 ## 1. Analysis Overview
 The *School District Analysis* was created to provide the school board detailed information that will assist them on the decision making process for next year.  The analysis can be divided into five sections:
   
@@ -16,16 +13,6 @@ The *School District Analysis* was created to provide the school board detailed 
       c. Score by School Type 
   
   In this script, we will start off by cleaning the data due to some academic dishonesty implications that compromised the data, and then proceeding with the *Disctrict Analysis*.  
-
-    2. Results: Using bulleted lists and images of DataFrames as support, address the following questions.
-        How is the district summary affected?
-        How is the school summary affected?
-        How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-        How does replacing the ninth-grade scores affect the following:
-            Math and reading scores by grade
-            Scores by school spending
-            Scores by school size
-            Scores by school type
 
 ## 2. Results
   #### 2.1 How is the *District Summary* affected? 
@@ -61,12 +48,9 @@ The *School District Analysis* was created to provide the school board detailed 
   ##### d. Scores by school type
   Finally, we are not seeing any changes on *Scores by School Type*
   ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Type%20Summary.png)
-    
-
-    3. Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs
 
 ## 3. Summary
 In conclusion, post the changes we applied to the data, we can see some changes that altered some of the dataframes.  
-In the *District Summary* dataframe we can immediately see the number of students decrease by 461 which accounts for the 9th grade students from *Thomas High School* we removed at the beguining of the analysis. 
-We can also see a slight decrease on the passing percentages. Although we are seeing a change on this dataframe we believe is not significant enough to skew the data. 
-The '*School Summary'* dataframe is where we are going to see the most significant change in terms of percentages. We are seeing a decrease of -0.32% on the percentage of passing studentsIn, and this could be considered high in relation to the other changes mentioned above.  
+In the *District Summary* dataframe we can immediately see the number of students decrease by 461. This accounts for all the 9th grade students from *Thomas High School* we removed at the beguining of the analysis. 
+We can also see a slight decrease on the math and reading passing percentages. Although we are seeing a change on this dataframe we believe is not significant enough to skew the data. 
+Finally, the '*School Summary'* dataframe is where we are going to see the most significant change in terms of percentages. We are seeing a decrease of -0.32% on the percentage of passing students. This could be considered high in relation to the other changes mentioned above, but ultimately, it didn't create a significant change on the dat sice Thomas High School is still comes up second on the top five schools dataframe. 
