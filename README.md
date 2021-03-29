@@ -39,8 +39,19 @@ The *School District Analysis* was created to provide the school board detailed 
   We can see that the *'Percentage Passing Math' (-0.08%), 'Percentage Passing Reading' (-0.29%), and '% Overall Passing' (-0.32%)* metrics were impacted after removig and replacing the compromised data. 
   ##### Old School Summary 
 ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Old%20School%20Summary.png)
-##### New School Summary
+  ##### New School Summary
 ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/New%20School%20Summary.png)
   
 
+  #### 2.3 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+  After removing the data compromised data, 'Thomas High School' overall percentage decreased -0.32% but we can still that it didn't affect its possion on the top five schools on the district.
+  ##### Top Five Schools
+![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Top%205%20Schools.png)
+
+  #### 2.4 How does replacing the ninth-grade scores affect the following:
+  ##### Math and reading scores by grade
+  ##### Scores by school spending
+  ##### Scores by school size
+  ##### Scores by school type
+  
     3. Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
