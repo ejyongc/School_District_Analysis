@@ -50,7 +50,7 @@ The *School District Analysis* was created to provide the school board detailed 
   ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Type%20Summary.png)
 
 ## 3. Summary
-In conclusion, post the changes we applied to the data, we can see some changes that altered some of the dataframes.  
-In the *District Summary* dataframe we can immediately see the number of students decrease by 461. This accounts for all the 9th grade students from *Thomas High School* we removed at the beguining of the analysis. 
+Post all the changes we applied to the data, we can see the impact that it has caused to some dataframes.  
+In the *District Summary* dataframe we can immediately see the number of students decrease by 461. This accounts for all the 9th grade students from *Thomas High School* we removed at the beginning of the analysis. 
 We can also see a slight decrease on the math and reading passing percentages. Although we are seeing a change on this dataframe we believe is not significant enough to skew the data. 
-Finally, the '*School Summary'* dataframe is where we are going to see the most significant change in terms of percentages. We are seeing a decrease of -0.32% on the percentage of passing students. This could be considered high in relation to the other changes mentioned above, but ultimately, it didn't create a significant change on the dat sice Thomas High School is still comes up second on the top five schools dataframe. 
+Finally, the '*School Summary'* dataframe is where we are going to see the most significant change in terms of percentages. We are seeing a decrease of -0.32% on the *percentage of passing students*. This could be considered high in relation to the other changes mentioned above, but ultimately didn't create a significant change in the data. Proven by Thomas High School remaining second in the *top five schools* dataframe. 
