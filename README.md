@@ -3,8 +3,8 @@
 ## 1. Analysis Overview
 The *School District Analysis* was created to provide the school board detailed information that will assist them on the decision making process for next year.  The analysis can be divided into five sections:
   
-  1. **District Summary -** Cobined dataframes and calculated totals and averages for the entire school district. 
-  2. **School Summary -**  This data frame is the breakdown of the *Districs Summary* data by school. 
+  1. **District Summary -** Combined data frames and calculated totals and averages for the entire school district. 
+  2. **School Summary -**  This data frame is the breakdown of the *Districts Summary* data by school. 
   3. **High & Low Performing Schools -** Sorted schools based on the *Percentage of Overall Passing* students. 
   4. **Math and Reading Scores by Grade -** Created two separate dataframes that breaks down *math* and *reading* scores by *grade* for each school. 
   5. **Score analysis:-** Segmented the data to determine the impact that *Budgets*, *School Sizes*, and *School Types* have on the *Scores*
@@ -12,7 +12,7 @@ The *School District Analysis* was created to provide the school board detailed 
       b. Scores by School Size
       c. Score by School Type 
   
-  In this script, we will start off by cleaning the data due to some academic dishonesty implications that compromised the data, and then proceeding with the *Disctrict Analysis*.  
+  In this script, we will start off by cleaning the data due to some academic dishonesty implications that compromised the data, and then proceeding with the *District Analysis*.  
 
 ## 2. Results
   #### 2.1 How is the *District Summary* affected? 
@@ -23,7 +23,7 @@ The *School District Analysis* was created to provide the school board detailed 
 ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/New%20District%20Analysis.png)
 
   #### 2.2 How is the school summary affected?
-  We can see that the *'Percentage Passing Math' (-0.08%), 'Percentage Passing Reading' (-0.29%), and '% Overall Passing' (-0.32%)* metrics were impacted after removig and replacing the compromised data. 
+  We can see that the *'Percentage Passing Math' (-0.08%), 'Percentage Passing Reading' (-0.29%), and '% Overall Passing' (-0.32%)* metrics were impacted after removing and replacing the compromised data. 
   ##### Old School Summary 
 ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Old%20School%20Summary.png)
   ##### New School Summary
@@ -43,14 +43,14 @@ The *School District Analysis* was created to provide the school board detailed 
   There's no significant change on the data for *Scores by School Spending*.
   ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Spending%20Summary.png)
   ##### c. Scores by school size
-  Similarly to *Scores by School Size*, replacing the *ninth-grade scores* didn't impact the *Scores by School Size* dataframe. 
+  Similarly to *Scores by School Size*, replacing the *ninth-grade scores* didn't impact the *Scores by School Size* data frame. 
   ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Size%20Summary.png)
   ##### d. Scores by school type
   Finally, we are not seeing any changes on *Scores by School Type*
   ![image](https://github.com/ejyongc/School_District_Analysis/blob/main/Resources/Type%20Summary.png)
 
 ## 3. Summary
-Post all the changes we applied to the data, we can see the impact that it has caused to some dataframes.  
-In the *District Summary* dataframe we can immediately see the number of students decrease by 461. This accounts for all the 9th grade students from *Thomas High School* we removed at the beginning of the analysis. 
-We can also see a slight decrease on the math and reading passing percentages. Although we are seeing a change on this dataframe we believe is not significant enough to skew the data. 
-Finally, the '*School Summary'* dataframe is where we are going to see the most significant change in terms of percentages. We are seeing a decrease of -0.32% on the *percentage of passing students*. This could be considered high in relation to the other changes mentioned above, but ultimately didn't create a significant change in the data. Proven by Thomas High School remaining second in the *top five schools* dataframe. 
+Post all the changes we applied to the data, we can see the impact that it has caused to some data frames.  
+In the *District Summary* data frame we can immediately see the number of students decrease by 461. This accounts for all the 9th grade students from *Thomas High School* we removed at the beginning of the analysis. 
+We can also see a slight decrease on the math and reading passing percentages. Although we are seeing a change on this data frame we believe is not significant enough to skew the data. 
+Finally, the '*School Summary'* data frame is where we are going to see the most significant change in terms of percentages. We are seeing a decrease of -0.32% on the *percentage of passing students*. This could be considered high in relation to the other changes mentioned above, but ultimately didn't create a significant change in the data. Proven by Thomas High School remaining second in the *top five schools* data frame. 
